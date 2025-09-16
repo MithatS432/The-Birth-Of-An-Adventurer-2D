@@ -1,16 +1,24 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class RopeLauncher : MonoBehaviour
 {
     public LineRenderer lineRenderer;
     public LayerMask groundLayer;
-    public float ropeSpeed = 20f;    
-    public float pullSpeed = 10f;     
+    public float ropeSpeed = 20f;
+    public float pullForce = 500f;       
+    public float maxRopeDistance = 10f;
+
+    [Range(2, 50)]
+    public int lineSegments = 5;        
+
+    [HideInInspector]
+    public bool ropeAttached = false;
 
     private Vector2 ropeTarget;
     private Vector2 ropeCurrent;
     private bool ropeFired = false;
-    private bool ropeAttached = false;
+
     private Rigidbody2D rb;
     private AudioSource audioSource;
 
@@ -23,30 +31,20 @@ public class RopeLauncher : MonoBehaviour
 
     void Update()
     {
-        // Sol tık -> halat fırlat
         if (Input.GetMouseButtonDown(0))
         {
             FireRope();
-            audioSource.Play();
+            if (audioSource != null) audioSource.Play();
         }
 
-        // Sağ tık -> halatı bırak
         if (Input.GetMouseButtonDown(1))
-        {
             ReleaseRope();
-        }
 
-        // Halat fırlatıldıysa ucu hareket ettir
         if (ropeFired && !ropeAttached)
-        {
             MoveRopeHead();
-        }
 
-        // Halat bağlıysa karakteri çek
         if (ropeAttached)
-        {
             PullCharacter();
-        }
 
         UpdateRopeVisual();
     }
@@ -54,19 +52,31 @@ public class RopeLauncher : MonoBehaviour
     void FireRope()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        ropeTarget = mousePos;
-        ropeCurrent = transform.position; // Halat karakterden başlar
-        ropeFired = true;
-        ropeAttached = false;
-        lineRenderer.positionCount = 2;
+        Vector2 dir = (mousePos - (Vector2)transform.position).normalized;
+
+        ropeCurrent = (Vector2)transform.position;
+
+        RaycastHit2D hit = Physics2D.Raycast(ropeCurrent, dir, maxRopeDistance, groundLayer);
+
+        if (hit.collider != null)
+        {
+            ropeTarget = hit.point;
+            ropeFired = true;
+            ropeAttached = false;
+            lineRenderer.positionCount = lineSegments;
+        }
+        else
+        {
+            ropeFired = false;
+            ropeAttached = false;
+            lineRenderer.positionCount = 0;
+        }
     }
 
     void MoveRopeHead()
     {
-        // Halat ucunu hedefe doğru hareket ettir
         ropeCurrent = Vector2.MoveTowards(ropeCurrent, ropeTarget, ropeSpeed * Time.deltaTime);
 
-        // Hedefe ulaştıysa halatı bağlı kabul et
         if (Vector2.Distance(ropeCurrent, ropeTarget) < 0.1f)
         {
             ropeAttached = true;
@@ -77,11 +87,10 @@ public class RopeLauncher : MonoBehaviour
     void PullCharacter()
     {
         Vector2 direction = (ropeTarget - (Vector2)transform.position).normalized;
-        rb.linearVelocity = direction * pullSpeed;
+        rb.AddForce(direction * pullForce * Time.fixedDeltaTime, ForceMode2D.Force);
 
-        if (Vector2.Distance(transform.position, ropeTarget) < 0.1f)
+        if (Vector2.Distance(transform.position, ropeTarget) < 0.3f)
         {
-            rb.linearVelocity = Vector2.zero;
             ReleaseRope();
         }
     }
@@ -95,10 +104,15 @@ public class RopeLauncher : MonoBehaviour
 
     void UpdateRopeVisual()
     {
-        if (lineRenderer.positionCount > 0)
+        if (lineRenderer.positionCount < 2) return;
+
+        Vector3 start = transform.position;
+        Vector3 end = ropeAttached || ropeFired ? (Vector3)ropeCurrent : transform.position;
+
+        for (int i = 0; i < lineSegments; i++)
         {
-            lineRenderer.SetPosition(0, transform.position);
-            lineRenderer.SetPosition(1, ropeFired || ropeAttached ? (Vector3)ropeCurrent : transform.position);
+            float t = i / (float)(lineSegments - 1);
+            lineRenderer.SetPosition(i, Vector3.Lerp(start, end, t));
         }
     }
 }

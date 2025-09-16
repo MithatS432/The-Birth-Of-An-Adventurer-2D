@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,38 +11,46 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     public float jumpSpeed = 6f;
 
+    public RopeLauncher ropeLauncher;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sp = GetComponent<SpriteRenderer>();
         pa = GetComponent<Animator>();
     }
-    private void Update()
+
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && isGround)
         {
             rb.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
+            isGround = false;
         }
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        float x = Input.GetAxis("Horizontal");
+        if (ropeLauncher == null || !ropeLauncher.ropeAttached)
+        {
+            float x = Input.GetAxis("Horizontal");
+            rb.linearVelocity = new Vector2(x * speed, rb.linearVelocity.y);
+            pa.SetFloat("Speed", Mathf.Abs(x));
 
-        rb.linearVelocity = new Vector2(x * speed, rb.linearVelocity.y);
-
-        pa.SetFloat("Speed", Mathf.Abs(x));
-
-        if (x > 0.01f)
-            sp.flipX = false;
-        else if (x < -0.01f)
-            sp.flipX = true;
+            sp.flipX = x < -0.01f;
+        }
     }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Wall"))
-        {
             isGround = true;
-        }
+        if (other.gameObject.CompareTag("Finish"))
+            SceneManager.LoadScene(0);
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Wall"))
+            isGround = false;
     }
 }
