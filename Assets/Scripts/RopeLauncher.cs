@@ -4,18 +4,20 @@ public class RopeLauncher : MonoBehaviour
 {
     public LineRenderer lineRenderer;
     public LayerMask groundLayer;
-    public float ropeSpeed = 20f;     // Halatın fırlatma hızı
-    public float pullSpeed = 10f;     // Karakterin çekilme hızı
+    public float ropeSpeed = 20f;    
+    public float pullSpeed = 10f;     
 
     private Vector2 ropeTarget;
     private Vector2 ropeCurrent;
     private bool ropeFired = false;
     private bool ropeAttached = false;
     private Rigidbody2D rb;
+    private AudioSource audioSource;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
         lineRenderer.positionCount = 0;
     }
 
@@ -25,6 +27,7 @@ public class RopeLauncher : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             FireRope();
+            audioSource.Play();
         }
 
         // Sağ tık -> halatı bırak
