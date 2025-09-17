@@ -12,6 +12,7 @@ public class WaterRise : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1f;
         startPos = transform.position;
         restartButton.onClick.AddListener(RestartGame);
     }
@@ -20,7 +21,7 @@ public class WaterRise : MonoBehaviour
     {
         transform.position += Vector3.up * riseSpeed * Time.deltaTime;
 
-        if (transform.position.y > player.position.y + 0.1f)
+        if (transform.position.y > player.position.y - 1.5f)
         {
             Time.timeScale = 0f;
             restartButton.gameObject.SetActive(true);
@@ -28,7 +29,6 @@ public class WaterRise : MonoBehaviour
     }
     void RestartGame()
     {
-        Time.timeScale = 1f;
         SceneManager.LoadScene("GameField");
     }
 }
