@@ -1,14 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class WaterRise : MonoBehaviour
 {
     public Transform player;
     public float riseSpeed = 0.5f;
     public Button restartButton;
+    public TextMeshProUGUI timerText;
+    private float timer = 600f;
 
     private Vector3 startPos;
+
 
     void Start()
     {
@@ -16,7 +20,6 @@ public class WaterRise : MonoBehaviour
         startPos = transform.position;
         restartButton.onClick.AddListener(RestartGame);
     }
-
     void Update()
     {
         transform.position += Vector3.up * riseSpeed * Time.deltaTime;
@@ -26,6 +29,8 @@ public class WaterRise : MonoBehaviour
             Time.timeScale = 0f;
             restartButton.gameObject.SetActive(true);
         }
+        timer -= (float)Time.deltaTime;
+        timerText.text = "Time: " + Mathf.CeilToInt(timer);
     }
     void RestartGame()
     {

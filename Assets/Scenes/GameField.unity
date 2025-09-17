@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 51082994}
   m_Layer: 6
   m_Name: Grounds_4 (31)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 59273949}
   m_Layer: 6
   m_Name: Grounds_4 (6)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 97611174}
   m_Layer: 6
   m_Name: Grounds_4 (4)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -534,7 +534,7 @@ GameObject:
   - component: {fileID: 103493844}
   m_Layer: 6
   m_Name: Grounds_1 (17)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -668,7 +668,7 @@ GameObject:
   - component: {fileID: 120272615}
   m_Layer: 6
   m_Name: Grounds_4 (16)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -802,7 +802,7 @@ GameObject:
   - component: {fileID: 131298816}
   m_Layer: 6
   m_Name: Grounds_4 (7)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1509,7 +1509,7 @@ GameObject:
   - component: {fileID: 190377233}
   m_Layer: 0
   m_Name: Grounds_3 (1)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1643,7 +1643,7 @@ GameObject:
   - component: {fileID: 196763146}
   m_Layer: 6
   m_Name: Grounds_5 (5)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1657,7 +1657,7 @@ Transform:
   m_GameObject: {fileID: 196763144}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.58, y: 20.76, z: 0}
+  m_LocalPosition: {x: 8.58, y: 19.41, z: 0}
   m_LocalScale: {x: 0.3498, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1777,7 +1777,7 @@ GameObject:
   - component: {fileID: 223647451}
   m_Layer: 6
   m_Name: Grounds_1 (4)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1911,7 +1911,7 @@ GameObject:
   - component: {fileID: 246792121}
   m_Layer: 6
   m_Name: Grounds_0 (2)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2045,7 +2045,7 @@ GameObject:
   - component: {fileID: 256687346}
   m_Layer: 6
   m_Name: Grounds_0 (5)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2179,7 +2179,7 @@ GameObject:
   - component: {fileID: 262309959}
   m_Layer: 6
   m_Name: Grounds_0 (7)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2574,7 +2574,7 @@ GameObject:
   - component: {fileID: 306756028}
   m_Layer: 6
   m_Name: Grounds_0 (4)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2859,7 +2859,7 @@ GameObject:
   - component: {fileID: 328949956}
   m_Layer: 6
   m_Name: Grounds_4 (27)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2993,7 +2993,7 @@ GameObject:
   - component: {fileID: 331488565}
   m_Layer: 6
   m_Name: Grounds_4 (9)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3127,7 +3127,7 @@ GameObject:
   - component: {fileID: 339732284}
   m_Layer: 6
   m_Name: Grounds_4 (11)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3261,7 +3261,7 @@ GameObject:
   - component: {fileID: 366049213}
   m_Layer: 6
   m_Name: Grounds_1 (10)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3395,7 +3395,7 @@ GameObject:
   - component: {fileID: 368885291}
   m_Layer: 6
   m_Name: Grounds_4 (29)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3529,7 +3529,7 @@ GameObject:
   - component: {fileID: 370196584}
   m_Layer: 6
   m_Name: Grounds_3 (3)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3663,7 +3663,7 @@ GameObject:
   - component: {fileID: 387069911}
   m_Layer: 6
   m_Name: Grounds_4 (24)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4058,7 +4058,7 @@ GameObject:
   - component: {fileID: 408367357}
   m_Layer: 6
   m_Name: Grounds_0 (6)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4453,7 +4453,7 @@ GameObject:
   - component: {fileID: 412599606}
   m_Layer: 6
   m_Name: Grounds_5 (2)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4587,7 +4587,7 @@ GameObject:
   - component: {fileID: 422675559}
   m_Layer: 6
   m_Name: Grounds_4 (3)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4799,7 +4799,7 @@ GameObject:
   - component: {fileID: 452655422}
   m_Layer: 6
   m_Name: Grounds_0 (8)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5168,9 +5168,13 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 64
   ropeSpeed: 20
   pullForce: 500
   maxRopeDistance: 10
+  disableDuration: 1
   lineSegments: 5
   ropeAttached: 0
 --- !u!82 &470595295
@@ -5283,7 +5287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGround: 0
-  speed: 5
+  speed: 250
   jumpSpeed: 6
   ropeLauncher: {fileID: 470595294}
 --- !u!1 &516073711
@@ -5299,7 +5303,7 @@ GameObject:
   - component: {fileID: 516073714}
   m_Layer: 6
   m_Name: Grounds_3 (5)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5578,7 +5582,7 @@ Transform:
   m_GameObject: {fileID: 541611692}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.42874238, w: 0.9034268}
-  m_LocalPosition: {x: -19.369999, y: -14.82, z: 0}
+  m_LocalPosition: {x: -19.369999, y: -12.6, z: 0}
   m_LocalScale: {x: 0.5125115, y: 0.5125115, z: 0.51251143}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5694,7 +5698,7 @@ GameObject:
   - component: {fileID: 583011268}
   m_Layer: 6
   m_Name: Grounds_4 (21)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6350,7 +6354,7 @@ GameObject:
   - component: {fileID: 630699920}
   m_Layer: 6
   m_Name: Grounds_4 (17)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6484,7 +6488,7 @@ GameObject:
   - component: {fileID: 642737600}
   m_Layer: 0
   m_Name: Grounds_3
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6618,7 +6622,7 @@ GameObject:
   - component: {fileID: 647754858}
   m_Layer: 6
   m_Name: Grounds_1 (18)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6787,7 +6791,7 @@ GameObject:
   - component: {fileID: 649573215}
   m_Layer: 6
   m_Name: Grounds_0 (1)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6921,7 +6925,7 @@ GameObject:
   - component: {fileID: 684787755}
   m_Layer: 6
   m_Name: Grounds_1 (16)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7577,7 +7581,7 @@ GameObject:
   - component: {fileID: 733757532}
   m_Layer: 6
   m_Name: Grounds_4 (14)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7711,7 +7715,7 @@ GameObject:
   - component: {fileID: 753123996}
   m_Layer: 6
   m_Name: Grounds_4 (5)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7845,7 +7849,7 @@ GameObject:
   - component: {fileID: 799720499}
   m_Layer: 6
   m_Name: Grounds_4 (15)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7979,7 +7983,7 @@ GameObject:
   - component: {fileID: 841176859}
   m_Layer: 6
   m_Name: Grounds_0
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8113,7 +8117,7 @@ GameObject:
   - component: {fileID: 856664422}
   m_Layer: 6
   m_Name: Grounds_4 (13)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8247,7 +8251,7 @@ GameObject:
   - component: {fileID: 859757583}
   m_Layer: 6
   m_Name: Grounds_1 (2)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8642,7 +8646,7 @@ GameObject:
   - component: {fileID: 886290693}
   m_Layer: 6
   m_Name: Grounds_4 (8)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8776,7 +8780,7 @@ GameObject:
   - component: {fileID: 955386732}
   m_Layer: 6
   m_Name: Grounds_4 (20)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8989,7 +8993,7 @@ GameObject:
   - component: {fileID: 1029177313}
   m_Layer: 6
   m_Name: Grounds_4 (22)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9123,7 +9127,7 @@ GameObject:
   - component: {fileID: 1030497585}
   m_Layer: 6
   m_Name: Grounds_1 (7)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9257,7 +9261,7 @@ GameObject:
   - component: {fileID: 1044613313}
   m_Layer: 6
   m_Name: Grounds_4 (30)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9391,7 +9395,7 @@ GameObject:
   - component: {fileID: 1065344068}
   m_Layer: 6
   m_Name: Grounds_1 (15)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9525,7 +9529,7 @@ GameObject:
   - component: {fileID: 1095709595}
   m_Layer: 6
   m_Name: Grounds_1 (8)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9737,7 +9741,7 @@ GameObject:
   - component: {fileID: 1138148688}
   m_Layer: 6
   m_Name: Grounds_3 (4)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9806,7 +9810,7 @@ Transform:
   m_GameObject: {fileID: 1138148685}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.9800005, y: -11.84, z: 0}
+  m_LocalPosition: {x: 14.9800005, y: -10.67, z: 0}
   m_LocalScale: {x: 0.62, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10132,7 +10136,7 @@ GameObject:
   - component: {fileID: 1199010203}
   m_Layer: 6
   m_Name: Grounds_1 (14)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10605,7 +10609,7 @@ GameObject:
   - component: {fileID: 1216861593}
   m_Layer: 6
   m_Name: Grounds_4 (19)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10868,7 +10872,7 @@ GameObject:
   - component: {fileID: 1266624697}
   m_Layer: 6
   m_Name: Grounds_4 (26)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11138,7 +11142,7 @@ GameObject:
   - component: {fileID: 1367505505}
   m_Layer: 6
   m_Name: Grounds_5 (4)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11354,6 +11358,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1964413766}
+  - {fileID: 2121933951}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11374,7 +11379,7 @@ GameObject:
   - component: {fileID: 1391196163}
   m_Layer: 6
   m_Name: Grounds_1 (12)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11541,7 +11546,7 @@ GameObject:
   - component: {fileID: 1405811471}
   m_Layer: 6
   m_Name: Grounds_4 (18)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11675,7 +11680,7 @@ GameObject:
   - component: {fileID: 1420827936}
   m_Layer: 6
   m_Name: Grounds_4 (28)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11809,7 +11814,7 @@ GameObject:
   - component: {fileID: 1457520781}
   m_Layer: 6
   m_Name: Grounds_1 (13)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11943,7 +11948,7 @@ GameObject:
   - component: {fileID: 1466103170}
   m_Layer: 6
   m_Name: Grounds_1
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12077,7 +12082,7 @@ GameObject:
   - component: {fileID: 1473047298}
   m_Layer: 6
   m_Name: Grounds_1 (5)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12211,7 +12216,7 @@ GameObject:
   - component: {fileID: 1479469606}
   m_Layer: 6
   m_Name: Grounds_1 (19)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12345,7 +12350,7 @@ GameObject:
   - component: {fileID: 1495655497}
   m_Layer: 6
   m_Name: Grounds_1 (11)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12479,7 +12484,7 @@ GameObject:
   - component: {fileID: 1500459828}
   m_Layer: 6
   m_Name: Grounds_4 (2)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12613,7 +12618,7 @@ GameObject:
   - component: {fileID: 1514540020}
   m_Layer: 6
   m_Name: Grounds_4 (33)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12747,7 +12752,7 @@ GameObject:
   - component: {fileID: 1516553441}
   m_Layer: 6
   m_Name: Grounds_0 (3)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12952,7 +12957,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.02, y: -11.03, z: 0}
-  m_LocalScale: {x: 3.5540147, y: 2.3361602, z: 1}
+  m_LocalScale: {x: 5.3310223, y: 1.7521201, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -12970,8 +12975,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 470595289}
-  riseSpeed: 0.5
+  riseSpeed: 1
   restartButton: {fileID: 1964413767}
+  timerText: {fileID: 2121933952}
 --- !u!82 &1521992921
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13082,7 +13088,7 @@ GameObject:
   - component: {fileID: 1558979367}
   m_Layer: 6
   m_Name: Grounds_4 (34)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13216,7 +13222,7 @@ GameObject:
   - component: {fileID: 1561236211}
   m_Layer: 6
   m_Name: Grounds_4 (23)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13350,7 +13356,7 @@ GameObject:
   - component: {fileID: 1565055865}
   m_Layer: 6
   m_Name: Grounds_4 (10)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13833,7 +13839,7 @@ GameObject:
   - component: {fileID: 1741198329}
   m_Layer: 6
   m_Name: Grounds_1 (1)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13967,7 +13973,7 @@ GameObject:
   - component: {fileID: 1775982361}
   m_Layer: 6
   m_Name: Grounds_4 (25)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14101,7 +14107,7 @@ GameObject:
   - component: {fileID: 1797971353}
   m_Layer: 6
   m_Name: Grounds_4 (1)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14233,7 +14239,7 @@ GameObject:
   - component: {fileID: 1820031399}
   m_Layer: 6
   m_Name: Grounds(4)
-  m_TagString: Ground
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14301,7 +14307,7 @@ GameObject:
   - component: {fileID: 1842167296}
   m_Layer: 6
   m_Name: Grounds_4 (12)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14435,7 +14441,7 @@ GameObject:
   - component: {fileID: 1853598361}
   m_Layer: 6
   m_Name: Grounds_5 (1)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14504,7 +14510,7 @@ Transform:
   m_GameObject: {fileID: 1853598358}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2.63, z: 0}
   m_LocalScale: {x: 0.28, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14569,7 +14575,7 @@ GameObject:
   - component: {fileID: 1864878493}
   m_Layer: 6
   m_Name: Grounds_1 (3)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14745,7 +14751,7 @@ GameObject:
   - component: {fileID: 1892649319}
   m_Layer: 6
   m_Name: Grounds_3 (2)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14814,8 +14820,8 @@ Transform:
   m_GameObject: {fileID: 1892649316}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.15, y: -15.72, z: 0}
-  m_LocalScale: {x: 0.62, y: 1, z: 1}
+  m_LocalPosition: {x: 2.68, y: -13.69, z: 0}
+  m_LocalScale: {x: 0.5146, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1881106253}
@@ -14879,7 +14885,7 @@ GameObject:
   - component: {fileID: 1897999478}
   m_Layer: 6
   m_Name: Grounds_5 (3)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15013,7 +15019,7 @@ GameObject:
   - component: {fileID: 1942077120}
   m_Layer: 6
   m_Name: Grounds_1 (9)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15147,7 +15153,7 @@ GameObject:
   - component: {fileID: 1944548846}
   m_Layer: 6
   m_Name: Grounds_4
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15281,7 +15287,7 @@ GameObject:
   - component: {fileID: 1945539411}
   m_Layer: 6
   m_Name: Grounds_4 (32)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15875,7 +15881,7 @@ GameObject:
   - component: {fileID: 1974828972}
   m_Layer: 6
   m_Name: Grounds_3 (6)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16009,7 +16015,7 @@ GameObject:
   - component: {fileID: 1989686052}
   m_Layer: 6
   m_Name: Grounds_0 (9)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16404,7 +16410,7 @@ GameObject:
   - component: {fileID: 2003920692}
   m_Layer: 6
   m_Name: Grounds_5
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16865,6 +16871,142 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2121933950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2121933951}
+  - component: {fileID: 2121933953}
+  - component: {fileID: 2121933952}
+  m_Layer: 5
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2121933951
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121933950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1384923457}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100, y: -25}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2121933952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121933950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Time:'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4290175173
+  m_fontColor: {r: 0.7710531, g: 0.8792453, b: 0.71500885, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -123.94113, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2121933953
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121933950}
+  m_CullTransparentMesh: 1
 --- !u!1 &2122795095
 GameObject:
   m_ObjectHideFlags: 0
@@ -16878,7 +17020,7 @@ GameObject:
   - component: {fileID: 2122795097}
   m_Layer: 6
   m_Name: Grounds_1 (6)
-  m_TagString: Wall
+  m_TagString: Wall2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

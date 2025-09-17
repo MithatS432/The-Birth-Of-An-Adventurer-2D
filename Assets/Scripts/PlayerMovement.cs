@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         if (ropeLauncher == null || !ropeLauncher.ropeAttached)
         {
             float x = Input.GetAxis("Horizontal");
-            rb.linearVelocity = new Vector2(x * speed, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(x * speed * Time.fixedDeltaTime, rb.linearVelocity.y);
             pa.SetFloat("Speed", Mathf.Abs(x));
 
             sp.flipX = x < -0.01f;
@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Wall"))
+        if (other.gameObject.CompareTag("Wall2"))
             isGround = true;
         if (other.gameObject.CompareTag("Finish"))
             SceneManager.LoadScene(0);
@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Wall"))
+        if (other.gameObject.CompareTag("Wall2"))
             isGround = false;
     }
 }
