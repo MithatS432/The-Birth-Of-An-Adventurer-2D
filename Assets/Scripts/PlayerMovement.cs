@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -13,9 +15,12 @@ public class PlayerMovement : MonoBehaviour
 
     public ParticleSystem firework;
     private float yRange = 404.23f;
+    public TextMeshProUGUI wintext;
+    public AudioClip winsound;
+    float offset = 5f;
 
     public RopeLauncher ropeLauncher;
-    private bool hasTriggeredFirework = false; 
+    private bool hasTriggeredFirework = false;
 
     void Start()
     {
@@ -73,16 +78,32 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
+        // Instantiate
         ParticleSystem fx = Instantiate(firework, transform.position, Quaternion.identity);
         fx.Play();
 
+        // Coroutine ile manuel güncelleme
+        StartCoroutine(UpdateParticleUnscaled(fx));
+
+        // Zamanı durdur
         Time.timeScale = 0f;
         Debug.Log("Firework activated! Time stopped.");
     }
 
-    public void ResumeGame()
+    IEnumerator UpdateParticleUnscaled(ParticleSystem fx)
     {
-        Time.timeScale = 1f;
-        hasTriggeredFirework = false;
+        while (fx != null && fx.IsAlive(true))
+        {
+            fx.Simulate(Time.unscaledDeltaTime, true, false);
+            fx.Play();
+            wintext.gameObject.SetActive(true);
+            PlaySound(transform.position + new Vector3(offset, 0, 0));
+            yield return null;
+        }
     }
+    void PlaySound(Vector3 position)
+    {
+        AudioSource.PlayClipAtPoint(winsound, position, 1f);
+    }
+
 }

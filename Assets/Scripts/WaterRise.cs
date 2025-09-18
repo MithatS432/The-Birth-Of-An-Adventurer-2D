@@ -9,7 +9,8 @@ public class WaterRise : MonoBehaviour
     public float riseSpeed = 0.5f;
     public Button restartButton;
     public TextMeshProUGUI timerText;
-    private float timer = 600f;
+    public GameObject restart;
+    private float timer = 180f;
 
     private Vector3 startPos;
 
@@ -31,9 +32,17 @@ public class WaterRise : MonoBehaviour
         }
         timer -= (float)Time.deltaTime;
         timerText.text = "Time: " + Mathf.CeilToInt(timer);
+        if (timer <= 0)
+            TimeOut();
+
     }
     void RestartGame()
     {
         SceneManager.LoadScene("GameField");
+    }
+    void TimeOut()
+    {
+        restart.SetActive(true);
+        Time.timeScale = 0f;
     }
 }
