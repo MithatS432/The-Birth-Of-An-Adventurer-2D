@@ -2783,7 +2783,7 @@ Transform:
   m_GameObject: {fileID: 326870603}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 403.71, z: -10}
   m_LocalScale: {x: 0.43, y: 1.23, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5008,7 +5008,7 @@ Transform:
   m_GameObject: {fileID: 470595287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.49, y: -1.63, z: 0}
+  m_LocalPosition: {x: -5.16, y: 401.39, z: 0}
   m_LocalScale: {x: 2.4849, y: 2.4849, z: 2.4849}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5287,8 +5287,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGround: 0
-  speed: 250
+  speed: 5
   jumpSpeed: 6
+  firework: {fileID: 7291838540196593265, guid: eebd4198cae929f4883e70594350f6af, type: 3}
   ropeLauncher: {fileID: 470595294}
 --- !u!1 &516073711
 GameObject:
@@ -15695,7 +15696,7 @@ Transform:
   m_GameObject: {fileID: 1963070919}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.752, y: 408.91, z: -18.206697}
+  m_LocalPosition: {x: -10.752, y: 404.61, z: -18.206697}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
